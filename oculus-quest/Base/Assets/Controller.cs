@@ -10,6 +10,10 @@ public class Controller : MonoBehaviour
     // Rigidbody variable to hold the player ball's rigidbody instance
     private Rigidbody rigibody;
 
+    private bool isMoving = false; 
+    private Vector3 initialPosition; 
+    private Quaternion initialRotation;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +70,21 @@ public class Controller : MonoBehaviour
             rigibody.ResetInertiaTensor();
             rigibody.ResetCenterOfMass();
             rigibody.Sleep();
+        }
+
+        if (OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger) > 0.5f) {
+            Vector3 position = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
+            Quaternion rotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTouch);
+            if (isMoving) {
+                GameObject ball = GameObject.Find("Ball");
+                ball.transform.position = ball.transform.position + (position - initialPosition);
+            } else {
+                initialPosition = position; 
+                initialRotation = rotation;
+                isMoving = true;
+            }
+        } else if (isMoving) {
+            isMoving = false;
         }
 
 

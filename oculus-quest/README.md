@@ -46,4 +46,10 @@ $ ./platform-tools/adb install Base/Build.apk
 
 * https://www.androidcentral.com/how-play-steamvr-quest
 
+## Avatar
+
+- [Display hands](https://developer.oculus.com/documentation/unity/as-avatars-gsg-unity/)
+
+## General
+
 - [General Unity development](../README.d)
