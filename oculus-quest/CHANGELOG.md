@@ -18,3 +18,11 @@ Bluetooth mice:
 
 - [Oculus Quest hand
   tracking](https://www.clubic.com/casque-vr/actualite-1568-oculus-quest-le-suivi-des-mains-etendu-aux-jeux-et-applications-tierces.html)
+
+## 21 May 2020
+
+- Stream works to android device with oculus app installed
+- Stream on chromecast is supposed to work
+- stream on virtual chromecast seems to not working
+- Antialiasing works
+-
