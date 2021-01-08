@@ -47,6 +47,7 @@ Click on "File > "Build And Run" (Ctrl+B/⌘+B)
 - [Unity Ui](https://developer.oculus.com/blog/unitys-ui-system-in-vr/)
 - [Display
   hands](https://developer.oculus.com/documentation/unity/as-avatars-gsg-unity/)
+- [Visual studio code debugger](https://marketplace.visualstudio.com/items?itemName=Unity.unity-debug)
 
 Select Android SDK in Unity:
 
@@ -94,6 +95,8 @@ https://www.androidcentral.com/how-play-steamvr-quest
 - [Hand tracking in unity with oculus
   quest](https://developer.oculus.com/documentation/unity/unity-handtracking/)
 - https://developer.oculus.com/documentation/native/android/mobile-hand-tracking/
+- [Hand design](https://developer.oculus.com/learn/hands-design-intro/)
+-
 
 ## Mixed Reality
 
