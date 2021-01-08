@@ -88,3 +88,13 @@ https://www.androidcentral.com/how-play-steamvr-quest
 - https://developer.oculus.com/blog/unitys-ui-system-in-vr/
 - https://developer.oculus.com/documentation/native/android/mobile-adb/
 - https://www.androidcentral.com/steamvr-support-now-available-oculus-quest-through-sideloading
+
+## Hand tracking
+
+- [Hand tracking in unity with oculus
+  quest](https://developer.oculus.com/documentation/unity/unity-handtracking/)
+- https://developer.oculus.com/documentation/native/android/mobile-hand-tracking/
+
+## Mixed Reality
+
+- https://developer.oculus.com/documentation/unity/unity-mrc/
