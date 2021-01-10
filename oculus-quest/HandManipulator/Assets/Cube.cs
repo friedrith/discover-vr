@@ -38,6 +38,7 @@ public class Cube : MonoBehaviour {
   bool isTranslating = false;
 
   GameObject box;
+  GameObject text;
 
   bool isBoxOn = false;
 
@@ -45,6 +46,9 @@ public class Cube : MonoBehaviour {
   void Start() {
 
     box = GameObject.Find("Box");
+    text = GameObject.Find("Text");
+
+    text.SetActive(false);
 
     rightHandObject = GameObject.Find("OVRCustomHandPrefab_R");
     leftHandObject = GameObject.Find("OVRCustomHandPrefab_L");
@@ -111,13 +115,14 @@ public class Cube : MonoBehaviour {
 
     if (IsEndingRightSnap()) {
       System.TimeSpan diff = System.DateTime.UtcNow - startSnapTime;
-      if (diff.Milliseconds <= 250 && isSnapping) {
+      if (diff.Milliseconds <= 100 && isSnapping) {
         isBoxOn = !isBoxOn;
+        text.SetActive(isBoxOn);
 
         if (isBoxOn) {
-          box.GetComponent<Renderer>().material.color = Color.green;
+          // box.GetComponent<Renderer>().material.color = Color.green;
         } else {
-          box.GetComponent<Renderer>().material.color = Color.red;
+          // box.GetComponent<Renderer>().material.color = Color.red;
         }
       }
       isSnapping = false;
