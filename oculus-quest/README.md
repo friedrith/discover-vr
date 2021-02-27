@@ -101,3 +101,8 @@ https://www.androidcentral.com/how-play-steamvr-quest
 ## Mixed Reality
 
 - https://developer.oculus.com/documentation/unity/unity-mrc/
+
+
+## Other 
+
+- [WebVR](https://www.youtube.com/watch?v=ck4MDy1pUoQ&ab_channel=DilmerValecillos)
