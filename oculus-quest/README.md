@@ -4,10 +4,6 @@
 
 ## Prepare project
 
-- [Tutorial to
-  follow](https://developer.oculus.com/documentation/unity/unity-tutorial/)
-- [Tutorial to follow on macOS](https://medium.com/virtual-reality-virtual-people/oculus-quest-development-in-unity-b3bac62fda87)
-
 1. initialize Unity Project (2018.4.22f1+)
 2. install Oculus Integration from Asset store
 3. [configure build
@@ -16,8 +12,14 @@
 5. [setup avatar](https://developer.oculus.com/documentation/unity/as-avatars-gsg-unity/)
 
 - [Setup XR Device to roomscale](https://forum.unity.com/threads/oculus-quest-unityengine-xr.677236/?_ga=2.250954688.750538125.1590067905-1389123627.1586989910)
-
+- [Tutorial to
+  follow](https://developer.oculus.com/documentation/unity/unity-tutorial/)
+- [Tutorial to follow on macOS](https://medium.com/virtual-reality-virtual-people/oculus-quest-development-in-unity-b3bac62fda87)
 ## Upload application
+
+### Automatically
+
+Click on "File > "Build And Run" (Ctrl+B/⌘+B)
 
 ### Manually
 
@@ -33,10 +35,6 @@ $ ./platform-tools/adb install Base/Build.apk
 ```
 
 - [To detect the oculus quest](https://www.android.com/filetransfer/)
-
-### Automatically
-
-Click on "File > "Build And Run" (Ctrl+B/⌘+B)
 
 ## How to develop
 
@@ -96,7 +94,6 @@ https://www.androidcentral.com/how-play-steamvr-quest
   quest](https://developer.oculus.com/documentation/unity/unity-handtracking/)
 - https://developer.oculus.com/documentation/native/android/mobile-hand-tracking/
 - [Hand design](https://developer.oculus.com/learn/hands-design-intro/)
--
 
 ## Mixed Reality
 
