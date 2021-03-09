@@ -1,7 +1,5 @@
 # Oculus quest
 
-- [General Unity development](../README.d)
-
 ## Prepare project
 
 1. initialize Unity Project (2018.4.22f1+)
